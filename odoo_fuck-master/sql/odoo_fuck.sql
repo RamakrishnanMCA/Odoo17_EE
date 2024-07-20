@@ -1,0 +1,3 @@
+update ir_config_parameter set value = '5000-01-01 12:00:00' where id = (select id from ir_config_parameter where key = 'database.create_date');
+update ir_config_parameter set value = '6000-01-01 12:00:00' where id = (select id from ir_config_parameter where key = 'database.expiration_date');
+update ir_config_parameter set value = 'trial' where id = (select id from ir_config_parameter where key = 'database.expiration_reason');
