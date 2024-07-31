@@ -3,7 +3,7 @@
 
 {
     'name': 'Salary Configurator - Holidays',
-    'category': 'Human Resources',
+    'category': 'Human Resources New',
     'summary': 'Automatically creates extra time-off on contract signature',
     'depends': [
         'hr_contract_salary',
